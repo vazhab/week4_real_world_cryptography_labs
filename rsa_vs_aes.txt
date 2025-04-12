@@ -1,0 +1,5 @@
+RSA is an asymmetric encryption algorithm used mainly for secure key exchange and digital signatures. It is slower and more resource-intensive, which makes it unsuitable for encrypting large data files.
+
+AES is a symmetric encryption algorithm optimized for speed and efficiency when encrypting large files. It requires both parties to securely share a secret key, unlike RSA which uses key pairs.
+
+In practice, RSA is often used to securely transmit an AES key, and the actual data is encrypted with AES—this combines the strengths of both algorithms.
